@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+        <title>Learning html</title>
+      </head>
+      <body>
+       <h1>HTML FORMS</h1>
+       <form>
+         <label for="Username">Enter Username:</label>
+         <input type="text"id="Username" name="Username"placeholder="username"required>
+         <br><br>
+         <label for="Password">Enter Password:</label>
+         <input type="password"id="Password" name="Password"placeholder="password" required>
+         <h2>Select your age:</h2>
+         <input type="radio"name="Age" value=1-20 id="gang-1">
+         <label for="gang-1">1-20</label>
+         <br><br>
+         <input type="radio"name="age" value=21-40 id="gang-2">
+         <label for="gang-2">21-40</label>
+         <br><br>
+         <input type="radio"name="Age" value=41above id="gang-3">
+         <label for="gang-3">41above</label>
+         <br><br>
+         <label for="questions">Security Questions:</label>
+         <select name="questions" id="questions">
+           <option value="q1">Which is your favourite fruit</option>
+           <option value="q2">who's your best friend</option>
+           <option value="q3">How much can you afford for shoes</option>
+           
+         </select>
+         <br/>
+           <br/>
+           
+           <label for="answers">Your Answer:</label>
+           <input type="text" id="answers"name="answers"/>
+           <br><br>
+           <label for="bio">Your Bio</label>
+           <br>
+           <textarea name="bio" cols="30" rows="10"id="bio" placeholder="about you....."></textarea>
+           <br>
+           <input type="submit" value="Submit the form">
+
+       </form>
